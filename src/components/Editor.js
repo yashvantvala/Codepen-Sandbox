@@ -23,6 +23,7 @@ function Editor({ displayName, language, value, onChange }) {
           mode: language,
           lineNumbers: true,
           theme: "material",
+          autocorrect: true,
         }}
       />
     </div>
